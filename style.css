@@ -1,0 +1,18 @@
+h1 {
+  animation: blinker 1s linear infinite;
+  opacity: 80;
+  color: red;
+  position: relative;
+  left: 140px;
+  bottom: -200px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+body {
+  background-color: darkblue;
+}
